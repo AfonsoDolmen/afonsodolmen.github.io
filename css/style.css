@@ -146,8 +146,8 @@ body{
 
 @media screen and (min-width:1024px){
 	.title a img{
-		width:300px;
-		height:300px;
+		width:200px;
+		height:200px;
 	}
 
 	.title h1{
