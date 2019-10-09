@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Site Responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="div-cabecalho">
+		<header class="cabecalho">
+			<a href="index.html"><h1 class="logo">Site Responsivo</h1></a>
+			<button class="btn-menu"><i class="fa fa-bars fa-lg"></button>
+			<nav class="menu">
+				<a class="btn-close">x</a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Clientes</a></li>
+					<li><a href="#">Serviços</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Quem somos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="banner">
+		<div class="title">
+			<h2>OUSE INOVAR!</h2>
+			<h3>Site Responsivo</h3>
+		</div>
+		<div class="buttons">
+			<button class="btn-cadastrar">Cadastrar</button>
+			<button class="btn-sobre">Sobre</button>
+		</div>
+	</div>
+	<main class="servicos">
+		<article class="servico">
+			<a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitarias"/></a>
+			<div class="inner">
+				<a href="#">Campanhas publicitarias</a>
+				<h4>Impressos, VTs e Jingle</h4>
+				<p>Impressões, etc.</p>
+			</div>
+		</article>
+		
+		<article class="servico">
+			<a href="#"><img src="img/md.jpg" alt="Marketing digital"/></a>
+			<div class="inner">
+				<a href="#">Marketing Digital</a>
+				<h4>Administração de redes sociais</h4>
+				<p>Aprenda a como adiministrar e como a rede social pode lhe ajudar em grandes projetos!</p>
+			</div>
+		</article>
+
+		<article class="servico">
+			<a href="#"><img src="img/cs.jpg" alt="Desinvolvimento Web"/></a>
+			<div class="inner">
+				<a href="#">Desinvolvimento Web</a>
+				<h4>Criação de sites</h4>
+				<p>Criação de sites, front-end e back-end.</p>
+			</div>
+		</article>
+	</main>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+</body>
+</html>
