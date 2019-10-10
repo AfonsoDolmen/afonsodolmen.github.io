@@ -199,6 +199,7 @@ body{
 	.title a img{
 		width:270px;
 		height:270px;
+		margin-top:30px
 	}
 
 	.title h1{
@@ -212,12 +213,13 @@ body{
 
 	.div-rodape{
 		width:92%;
-		height:1px;
+		height:0.5px;
 		margin-top:35px;
 	}
 
 	.div-rodape ul a li{
 		font-size:2.5em;
+		top:-23px;
 	}
 
 	.main-projetos h1{
